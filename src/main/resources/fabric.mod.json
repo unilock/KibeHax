@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "kibehax",
+	"version": "${version}",
+	"name": "KibeHax",
+	"description": "Supply a pos to Kibe's Spikes' FakePlayers",
+	"authors": [
+		"unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/KibeHax",
+		"issues": "https://github.com/unilock/KibeHax/issues"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"kibehax.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20",
+		"kibe": "*"
+	}
+}
